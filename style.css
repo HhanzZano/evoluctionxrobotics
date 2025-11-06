@@ -133,6 +133,23 @@ footer {
 }
 
 
+.alerta-robos {
+  background: #fffae6;
+  color: #333;
+  text-align: center;
+  padding: 12px;
+  font-weight: 500;
+  border: 2px solid #ffd54f;
+  border-radius: 10px;
+  margin: 20px auto;
+  width: fit-content;
+  animation: pisca 2s infinite alternate;
+}
+
+@keyframes pisca {
+  from { opacity: 1; }
+  to { opacity: 0.6; }
+}
 
 
 
